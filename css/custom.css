@@ -95,6 +95,78 @@ body {
 html body .gallery.nav-tabs li.nav-item {
   padding: 0px 16px;
 }
+.mdc-banner-contact {
+  position: relative !important;
+  background: url(../images/mdc-contact-banner.png) no-repeat center -100px;
+  background-size: cover;
+  height: 400px !important;
+}
+.mdc-banner-contact::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: #000 !important;
+  opacity: 0.7;
+}
+form label sup {
+  color: red;
+  font-size: 15px;
+  position: relative;
+  top: 0px;
+  left: 4px;
+}
+form label {
+  color: #3c4242;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.32px;
+  margin-bottom: 6px !important;
+}
+html body .contact-button {
+  padding: 14px !important;
+}
+.form-control:focus-visible,
+.form-control:focus {
+  background: #f1f1f1 !important;
+}
+.form-control:focus-visible,
+.form-control:focus,
+.form-control {
+  border-radius: 8px;
+  background: #f6f6f6;
+  padding: 13px 16px;
+  border: 0px;
+  transition: all 0.5s ease;
+  box-shadow: none !important;
+  outline: 0 !important;
+}
+.contact-us-card .text,
+.contact-us-card h6 ~ p ~ p,
+.contact-us-card h6 {
+  color: #0c0819;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 13px;
+  text-decoration: none !important;
+}
+.map-view iframe {
+  border-radius: 10px;
+  border: 0 !important;
+  outline: 0px !important;
+  box-shadow: none;
+}
+.contact-us-card h6 ~ p {
+  color: rgba(12, 8, 25, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.contact-us-card {
+  border-radius: 9px;
+  border: 1px solid #d8cfe7;
+  padding: 30px;
+  text-align: center;
+}
 .gallery li button {
   color: #313131;
   text-align: center;
@@ -484,6 +556,7 @@ html body .gallery.nav-tabs li.nav-item {
   height: 1.5px; /* Adjust the thickness of the underline */
   background: linear-gradient(104deg, #013542 7.01%, #511072 68.62%);
 }
+.contact-us-card::after,
 .theme-block-gradient::after {
   content: "";
   position: absolute;
@@ -871,6 +944,7 @@ html body button.mdc-button {
   );
   filter: blur(62px);
 }
+.contact-us-card,
 .theme-girl-shadow img,
 .theme-girl-shadow {
   position: relative;
