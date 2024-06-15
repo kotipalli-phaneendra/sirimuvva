@@ -23,7 +23,11 @@ body {
 /* .navbar .theme-container {
   overflow: unset !important;
 } */
-
+.footer.links.text-white li a {
+  color: #fff !important;
+  text-decoration: none !important;
+  transition: all 0.5s ease;
+}
 .success-btn:hover {
   background-color: #2ac604 !important;
 }
@@ -95,6 +99,14 @@ body {
     #c471ed 56.93%,
     #f64f59 137.53%
   );
+}
+.banner-video {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  object-fit: cover !important;
+}
+.footer.links.text-white li a:hover {
+  padding-left: 10px;
 }
 .gallery li button.active,
 .gallery li button:hover,
