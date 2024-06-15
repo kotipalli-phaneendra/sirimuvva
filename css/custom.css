@@ -185,6 +185,14 @@ body {
   font-size: 66px;
   font-weight: 400;
 }
+.banner-about-supporting {
+  color: #313131;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+}
+
 .banner-supporting {
   color: #fff;
   font-size: 17px;
@@ -559,6 +567,88 @@ body {
   background: url(../images/bg-text.png) no-repeat top left;
   background-size: contain;
   background-position: center;
+}
+.about-members-card {
+  border-radius: 20px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  padding: 30px;
+}
+.theme-block-gradient.about::after {
+  opacity: 0.3 !important;
+}
+.about-designation {
+  color: #666;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  line-height: 22px;
+  margin-bottom: 0px;
+}
+.about-name {
+  color: #313131;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 4px;
+}
+.about-description {
+  color: #313131;
+  font-size: 16.5px;
+  letter-spacing: normal;
+  line-height: 26px;
+  margin-bottom: 25px;
+}
+.about-members-profile {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.ring-right-bottom.about-us-members {
+  top: 140px;
+  right: -80px;
+}
+.about-members-name {
+  color: #313131;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  margin-bottom: 3px;
+}
+.about-members-designation {
+  color: #666;
+  font-size: 15.5px;
+  letter-spacing: 0.2px;
+}
+.about-members-description {
+  color: #313131;
+  font-size: 15px;
+  line-height: 23px;
+  letter-spacing: 0.2px;
+  margin-bottom: 0px !important;
+}
+.certificate-name {
+  font-size: 19px;
+  font-weight: 700;
+  margin-top: 20px !important;
+  margin-bottom: 0px !important;
+  color: #313131;
+}
+.pruple-dot {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border-radius: 50% !important;
+  background-color: #ba76ed;
+  margin-left: 5px;
+}
+.about-main-heading {
+  color: #313131;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  margin-bottom: 14px;
 }
 @media (max-width: 768px) {
   body #navbarNav {
