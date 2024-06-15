@@ -23,6 +23,21 @@ body {
 /* .navbar .theme-container {
   overflow: unset !important;
 } */
+.success-btn:hover {
+  background-color: #2ac604 !important;
+}
+.check-icon {
+  width: 70px;
+  height: 70px;
+}
+.success-btn {
+  border-radius: 66px;
+  background-color: #20bf55;
+  padding: 13px 42px;
+  border: 0px !important;
+  font-weight: 600;
+  color: #fff !important;
+}
 .navbar {
   transition: all 0.5s ease !important;
   padding-top: 8px !important;
@@ -33,6 +48,12 @@ body {
   box-shadow: 0 4px 9px 0 rgb(49 67 81 / 5%) !important;
   border-color: #eee !important;
   transition: all 0.5s ease !important;
+}
+.success-card {
+  border-radius: 15px;
+  background: #fff;
+  padding: 50px !important;
+  box-shadow: 4px 4px 124px 30px rgba(0, 0, 0, 0.05);
 }
 .navbar-nav li a {
   color: #313131 !important;
