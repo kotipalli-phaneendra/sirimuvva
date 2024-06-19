@@ -983,7 +983,13 @@ html body button.mdc-button {
     padding: 5px 10px !important;
   }
   .success-card {
-    padding: 30px 16px !important;
+    padding: 40px !important;
+  }
+  html,
+  body {
+    height: 100lvh;
+    height: 100svh;
+    height: 100vh;
   }
   .navbar-toggler.cross-mark {
     top: 10px !important;
@@ -996,11 +1002,15 @@ html body button.mdc-button {
   .navbar .nav-item a {
     text-align: start;
   }
+  .check-icon {
+    width: 55px !important;
+    height: 55px !important;
+  }
   .theme-cotainer,
   .theme-container {
     width: 100% !important;
-    padding-left: 0px !important;
-    padding-right: 0px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
     margin: auto !important;
   }
 }
@@ -1060,9 +1070,6 @@ html body button.mdc-button {
 .theme-bg-patch {
   background-color: rgba(230, 232, 251, 0.3) !important;
 }
-.theme-bg-patch {
-}
-
 .bottom-patch {
   position: absolute;
   top: 0px !important;
