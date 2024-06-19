@@ -976,6 +976,14 @@ html body button.mdc-button {
   .navbar .theme-button {
     margin-top: 25px !important;
     width: 100% !important;
+    display: block;
+    text-align: center;
+  }
+  .navbar {
+    padding: 5px 10px !important;
+  }
+  .success-card {
+    padding: 30px 16px !important;
   }
   .navbar-toggler.cross-mark {
     top: 10px !important;
@@ -987,6 +995,13 @@ html body button.mdc-button {
   }
   .navbar .nav-item a {
     text-align: start;
+  }
+  .theme-cotainer,
+  .theme-container {
+    width: 100% !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin: auto !important;
   }
 }
 
