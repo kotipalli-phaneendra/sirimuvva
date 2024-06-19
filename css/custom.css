@@ -1020,8 +1020,30 @@ html body button.mdc-button {
     padding-right: 5px !important;
     margin: auto !important;
   }
+  .block-heading {
+    font-size: 20px !important;
+    line-height: 25px;
+  }
+  .contact-us-card h6 ~ p ~ p,
+  .contact-us-card h6 {
+    font-size: 16px;
+  }
+  .about-description,
+  .contact-us-card h6 ~ p,
+  .contact-us-card .text,
+  .about-description {
+    font-size: 15px;
+  }
 }
-
+@media (max-width: 1400px) {
+  .theme-cotainer,
+  .theme-container {
+    width: 100% !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    margin: auto !important;
+  }
+}
 /* waste classses */
 
 .theme-card {
