@@ -38,7 +38,7 @@ body {
 .success-btn {
   border-radius: 66px;
   background-color: #20bf55;
-  padding: 13px 42px;
+  padding: 10px 42px;
   border: 0px !important;
   font-weight: 600;
   color: #fff !important;
@@ -1005,6 +1005,12 @@ html body button.mdc-button {
   .check-icon {
     width: 55px !important;
     height: 55px !important;
+  }
+  .mobile-main-heading {
+    font-size: 18px !important;
+  }
+  .mobile-base-size {
+    font-size: 14.5px;
   }
   .theme-cotainer,
   .theme-container {
