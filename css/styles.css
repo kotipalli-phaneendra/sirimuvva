@@ -291,6 +291,9 @@ body {
     right: -25%;
     bottom: -50%;
 }
+.color-variant-1.fw-semibold{
+    font-weight: 700 !important;
+}
 /* Media queries for responsive */
 @media(max-width:767px){
     .my-n5 {
