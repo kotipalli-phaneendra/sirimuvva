@@ -6,8 +6,15 @@
     font-family: "DM Sans", sans-serif !important;
     font-feature-settings: "clig" off, "liga" off;
     transition: all 0.5s ease !important;
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+    overflow: hidden;
 }
 body {
+    height: 100%;
     scroll-behavior: smooth !important;
     overflow-x: hidden;
     overflow-y: auto;
@@ -115,7 +122,7 @@ body {
     background: rgba(249, 249, 255, 0.12);
     color: #fff;
     font-size: 16px;
-    padding: 16px 24px;
+    padding: 10px 26px !important;
     border: 2px solid transparent !important;
     line-height: 18px;
     outline: 0px !important;
