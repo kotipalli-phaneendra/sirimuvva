@@ -236,11 +236,20 @@ body {
     border: 1px solid rgba(129, 199, 254, 0.5) !important;
     box-shadow: 4px 4px 30px 0px rgba(49, 57, 130, 0.15) !important;
 }
+.pre-heading-sm{
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    line-height: 32px !important;
+} 
 .pre-heading{
     font-size: 22px !important;
     font-weight: 700 !important;
     line-height: 32px !important;
 } 
+.block-heading-sm{
+    font-size: 25px;
+    font-weight: 700;
+}
 .color-variant{
     color: #b5191e !important;
 }
@@ -260,11 +269,36 @@ body {
     position: absolute;
     z-index: -1;
 }
+.gradient-bg-2,
+.gradient-bg-1 {
+    padding: 30px !important;
+    border-radius: 15px;
+    position: relative;
+}
+.gradient-bg-1{
+    background: linear-gradient(180deg, rgba(48, 232, 191, 0.12) 0%, rgba(255, 130, 53, 0.12) 100%);
+}
+.gradient-bg-2{
+    background: linear-gradient(5deg, rgba(18, 194, 233, 0.18) -49.98%, rgba(196, 113, 237, 0.18) 48.8%, rgba(246, 79, 89, 0.18) 149.66%), #fff;
+}
+.text-green-variant{
+    background: linear-gradient(180deg, #0f8369 0%, #bc5414 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.bottom-left-corner::before{
+    right: -25%;
+    bottom: -50%;
+}
 /* Media queries for responsive */
 @media(max-width:767px){
     .my-n5 {
         margin-top: -80px;
         margin-bottom: 40px;
+    }
+    .block-heading-sm{
+        font-size: 21px;
     }
     .block-heading {
         font-size: 23px !important;
