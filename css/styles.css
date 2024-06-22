@@ -253,6 +253,12 @@ body {
     .pre-heading {
         font-size: 18px !important;
     }
+    .paragraph-text{
+        font-size: 14px !important;
+    }
+    .block-supporting-line{
+        font-size: 15px !important;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px){
     .my-n5 {
@@ -264,5 +270,11 @@ body {
     }
     .pre-heading {
         font-size: 20px !important;
+    }
+    .paragraph-text{
+        font-size: 15px !important;
+    }
+    .block-supporting-line{
+        font-size: 16px !important;
     }
 }
