@@ -1,0 +1,169 @@
+* {
+    scroll-behavior: smooth !important;
+    font-optical-sizing: auto !important;
+    letter-spacing: 0.5px !important;
+    box-sizing: border-box !important;
+    font-family: "DM Sans", sans-serif !important;
+    font-feature-settings: "clig" off, "liga" off;
+    transition: all 0.5s ease !important;
+}
+body {
+    scroll-behavior: smooth !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.navbar-onscroll {
+    box-shadow: 0 4px 9px 0 rgb(49 67 81 / 5%) !important;
+    border-color: #eee !important;
+    transition: all 0.5s ease !important;
+}
+.btn-close,
+.navbar-toggler{
+    transition: all 0.5s ease !important;
+    outline: 0 !important;
+}
+.navbar .offcanvas{
+    transition: all 0.5s ease !important;
+    width: 270px !important;
+}
+.navbar .btn-close{
+    position: absolute;
+    transition: all 0.5s ease !important;
+    top: 16px;
+    right: 16px;
+}
+.navbar .nav-item .nav-link{
+    padding: 0px !important;
+    text-align: center;
+    transition: all 0.5s ease !important;
+}
+.footer-links li a,
+.footer-text,
+.theme-button,
+.navbar .nav-item .nav-link{
+    font-size: 15.5px;
+    font-weight: 500;
+    line-height: 24px !important;
+    letter-spacing: 0.4px !important;
+    transition: all 0.5s ease !important;
+}
+.navbar .nav-item .nav-link{
+    color: #313131 !important;
+    transition: all 0.5s ease !important;
+}
+.navbar .nav-item .nav-link:hover,
+.navbar .nav-item .nav-link.active,
+.text-gradient{
+    background: linear-gradient(98deg, #038eac 7.83%, #8d34ba 53.13%, #91151c 93.31%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.5s ease !important;
+}
+.theme-button{
+    background: linear-gradient(102.56deg, #12c2e9 -33.95%, #c471ed 56.93%, #f64f59 137.53%);
+    color: rgba(255, 255, 255, 1);
+    transition: all 0.5s ease !important;
+}
+.footer-bg::after,
+.gradient-variation{
+    background: linear-gradient(100deg, #12c2e9 -12.41%, #c471ed 32.47%, #f64f59 67.44%);
+}
+.footer-button,
+.theme-button{
+    transition: all 0.5s ease !important;
+    padding: 10px 26px !important;
+    border-radius: 50px !important;
+    border: 0px !important;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+}
+.theme-button:hover{
+    background: linear-gradient(0deg, #12c2e9 -33.95%, #c471ed 56.93%, #f64f59 137.53%);
+}
+.social-media a:hover,
+.theme-button:hover {
+    transition: all 0.5s ease !important;
+    transform: translateY(-3px);
+}
+.bg-footer {
+    background: #2a1239;
+}
+.text-sm{
+    font-size: 13px !important;
+}
+.footer-button {
+    background: rgba(255, 255, 255, 0.2);
+    outline: 0px !important;
+    box-shadow: none !important;
+    border: 2px solid transparent !important;
+}
+.footer-button:hover {
+    background-color: #fff !important;
+    color: #000;
+}
+.footer-input::-webkit-input-placeholder{
+    color: #f1f1f1 !important;
+}
+.footer-input:focus {
+    transition: all 0.5s ease;
+    border-color: #fff !important;
+}
+.footer-input {
+    transition: all 0.5s ease;
+    border-radius: 50px;
+    background: rgba(249, 249, 255, 0.12);
+    color: #fff;
+    font-size: 16px;
+    padding: 16px 24px;
+    border: 2px solid transparent !important;
+    line-height: 18px;
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+.footer-bg{
+    z-index: 150;
+}
+.footer-bg::after {
+    content: "";
+    opacity: 0.2;
+    filter: blur(62px);
+    display: block;
+    z-index: -1;
+    position: absolute;
+    width: 400px;
+    height: 399px;
+    border-radius: 50%;
+    left: -90px;
+    right: 0;
+    top: 0;
+}
+.footer-heading {
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer-links li a{
+    color: #fff !important;
+    position: relative;
+}
+.footer-links li a:hover{
+   margin-left: 7px;
+}
+.footer-links li a::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+  
+  @media (hover: hover) and (pointer: fine) {
+    .footer-links li a:hover:before{
+      left: 0;
+      right: auto;
+      width: 100%;
+    }
+  }
