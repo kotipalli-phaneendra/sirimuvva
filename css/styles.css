@@ -18,6 +18,8 @@ body {
     scroll-behavior: smooth !important;
     overflow-x: hidden;
     overflow-y: auto;
+    font-weight: 400;
+    color: #332338 !important;
 }
 .navbar-onscroll {
     box-shadow: 0 4px 9px 0 rgb(49 67 81 / 5%) !important;
@@ -174,3 +176,16 @@ body {
       width: 100%;
     }
   }
+  .bg-light-gradient{
+    background: linear-gradient(103deg, rgba(18, 194, 233, 0.06) -33.95%, rgba(196, 113, 237, 0.06) 56.93%, rgba(246, 79, 89, 0.06) 137.53%), #fff;
+  }
+.block-supporting-line{
+    font-size: 17px !important;
+    line-height: initial !important;
+    margin-bottom: 0px !important;
+}
+.block-heading {
+    font-size: 32px !important;
+    font-weight: 700;
+    line-height: 30px !important;
+}
