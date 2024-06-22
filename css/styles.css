@@ -62,8 +62,13 @@ body {
 }
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active,
-.text-gradient{
+.text-gradient,
+.gradient-underline::after{
     background: linear-gradient(98deg, #038eac 7.83%, #8d34ba 53.13%, #91151c 93.31%);
+}
+.navbar .nav-item .nav-link:hover,
+.navbar .nav-item .nav-link.active,
+.text-gradient{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -184,8 +189,80 @@ body {
     line-height: initial !important;
     margin-bottom: 0px !important;
 }
+.paragraph-text {
+    font-size: 16px !important;
+    line-height: 27px !important;
+    margin-bottom: 0px ;
+}
+.gradient-underline::after {
+    height: 1px;
+    content: "";
+    width: -webkit-fill-available;
+    display: block;
+    margin-top: 6px;
+}
+.my-n5{
+    margin-top: -130px;
+    margin-bottom: -30px;
+}
+.link-hover:hover{
+    margin-left: 8px !important;
+}
 .block-heading {
     font-size: 32px !important;
     font-weight: 700;
     line-height: 30px !important;
+}
+.bg-gradient-img::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover !important;
+    width: 100%;
+    height: 100%;
+    background: url(../assets/bg-gradient.png);
+    opacity: 0.15;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+.custom-shadow{
+    border-radius: 24px !important;
+    position: relative !important;
+    border: 1px solid rgba(129, 199, 254, 0.5) !important;
+    box-shadow: 4px 4px 30px 0px rgba(49, 57, 130, 0.15) !important;
+}
+.pre-heading{
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    line-height: 32px !important;
+} 
+.color-variant{
+    color: #b5191e !important;
+}
+
+/* Media queries for responsive */
+@media(max-width:767px){
+    .my-n5 {
+        margin-top: -80px;
+        margin-bottom: 40px;
+    }
+    .block-heading {
+        font-size: 23px !important;
+    }
+    .pre-heading {
+        font-size: 18px !important;
+    }
+}
+@media(max-width:991px){
+    .my-n5 {
+        margin-top: -140px;
+        margin-bottom: 60px;
+    }
+    .block-heading {
+        font-size: 28px !important;
+    }
+    .pre-heading {
+        font-size: 20px !important;
+    }
 }
