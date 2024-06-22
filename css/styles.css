@@ -253,8 +253,10 @@ body {
     .pre-heading {
         font-size: 18px !important;
     }
+    .footer-text,
     .paragraph-text{
         font-size: 14px !important;
+        line-height: 24px !important;
     }
     .block-supporting-line{
         font-size: 15px !important;
@@ -271,6 +273,8 @@ body {
     .pre-heading {
         font-size: 20px !important;
     }
+    .footer-links li a,
+    .footer-text,
     .paragraph-text{
         font-size: 15px !important;
     }
