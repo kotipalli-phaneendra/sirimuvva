@@ -287,9 +287,37 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.text-patch{
+    background: linear-gradient(104deg, #013542 7.01%, #511072 68.62%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gunnies-card {
+    padding: 12px 16px;
+    gap: 12px;
+    border-radius: 8px;
+    border: 0.8px solid #878787;
+    background: linear-gradient(121deg, #fff 31.33%, #f8ecfe 94.94%), linear-gradient(89deg, rgba(255, 255, 255, 0) 0.48%, #f9ecff 99.56%), #fff;
+}
+.lead-inherit{
+    line-height: inherit !important;
+}
+.bottom-right::before {
+    right: -5%;
+    bottom: -35%;
+}
 .bottom-left-corner::before{
     right: -25%;
     bottom: -50%;
+}
+.top-right-cornder::before {
+    top: -20%;
+    left: -12%;
+}
+.bg-gray {
+    background-color: #fafafa;
+    z-index: 0;
 }
 .color-variant-1.fw-semibold{
     font-weight: 700 !important;
