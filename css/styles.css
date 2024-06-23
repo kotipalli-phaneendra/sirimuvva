@@ -9,10 +9,11 @@
     margin: 0;
     padding: 0;
 }
-/* html {
+html {
     height: 100%;
-    overflow: hidden;
-} */
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+}
 .bg-banner::before {
     content: "";
     border-radius: 18px;
