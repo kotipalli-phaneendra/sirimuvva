@@ -484,6 +484,42 @@ body {
     margin: auto;
     display: block;
 }
+.gallery li button.active::after {
+    content: "";
+    position: absolute;
+    inset: 0px;
+    height: 1px;
+    background: linear-gradient(98deg, #038eac 7.83%, #8d34ba 53.13%, #91151c 93.31%);
+    top: unset;
+    bottom: -4px;
+}
+.gallery li .nav-link{
+    position:relative;
+}
+.gallery li button {
+    color: #313131;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.48px;
+    padding: 12px 0px;
+    border: 0px !important;
+    outline: 0px !important;
+}
+html body .gallery.nav-tabs li.nav-item {
+    padding: 0px 16px;
+}
+.gallery {
+    border: 0px !important;
+    box-shadow: none !important;
+    outline: 0 !important;
+}
+.gallery li button.active, .gallery li button:hover, .navbar-nav li a:hover, .navbar-nav li a.active {
+    background: linear-gradient(98deg, #038eac 7.83%, #8d34ba 53.13%, #91151c 93.31%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 /* Media queries for responsive */
 @media(max-width:767px){
     .bg-dance-style img {
