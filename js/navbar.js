@@ -1,8 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
     var navbar = document.getElementById("header");
+    var scrollableContainer = document.body;
 
-    window.addEventListener("scroll", function () {
-        if (window.scrollY > 50) {
+    scrollableContainer.addEventListener("scroll", function () {
+        if (scrollableContainer.scrollTop > 50) {
             navbar.classList.add("navbar-onscroll");
         } else {
             navbar.classList.remove("navbar-onscroll");
