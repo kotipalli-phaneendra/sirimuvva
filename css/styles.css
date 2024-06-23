@@ -493,6 +493,101 @@ body {
     top: unset;
     bottom: -4px;
 }
+.container-check input:checked ~ .checkmark {
+    background: linear-gradient(
+      102.56deg,
+      #12c2e9 -33.95%,
+      #c471ed 56.93%,
+      #f64f59 137.53%
+    );
+  }
+  /* Customize the label (the container) */
+.container-check {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  html body .form-select:focus,
+  html body .form-select {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e") !important;
+    background-repeat: no-repeat !important;
+    background-position: right 0.75rem center !important;
+    background-size: 16px 12px !important;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+  }
+  .container-check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    border-radius: 4px !important;
+    width: 25px;
+    background-color: #eee;
+}
+.container-check .checkmark:after {
+    left: 10px;
+    top: 7px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.container-check input:checked ~ .checkmark:after {
+    display: block;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.form-control:focus-visible, .form-control:focus, .form-control {
+    border-radius: 8px;
+    background-color: #f6f6f6;
+    padding: 13px 16px;
+    border: 0px;
+    transition: all 0.5s ease;
+    box-shadow: none !important;
+    outline: 0 !important;
+}
+.form-control:focus-visible, .form-control:focus {
+    background: #f1f1f1 !important;
+}
+.form-control:focus-visible, .form-control:focus, .form-control {
+    border-radius: 8px;
+    background-color: #f6f6f6;
+    padding: 13px 16px;
+    border: 0px;
+    transition: all 0.5s ease;
+    box-shadow: none !important;
+    outline: 0 !important;
+}
+form label {
+    color: #3c4242;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+    margin-bottom: 6px !important;
+}
 .gallery li .nav-link{
     position:relative;
 }
