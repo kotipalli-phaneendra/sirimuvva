@@ -569,6 +569,14 @@ body {
     box-shadow: none !important;
     outline: 0 !important;
 }
+.pruple-dot {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 50% !important;
+    background-color: #ba76ed;
+    margin-left: 5px;
+}
 .form-control:focus-visible, .form-control:focus {
     background: #f1f1f1 !important;
 }
