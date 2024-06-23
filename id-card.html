@@ -1,126 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="./css/custom.css" rel="stylesheet" />
-    <link rel="icon" href="./images/siri-muvva-logo-color.png" />
-    <title>
-      World's Biggest Dance Camp (Season-3) Trailer| First Biggest Online Work
-      Shop| Siri Muvva Arts
-    </title>
-    <link href="./css/custom.css" rel="stylesheet" />
-  </head>
-  <body>
-    <!-- Navbar starts here -->
-    <nav class="navbar navbar-expand-md bg-white py-0 sticky-top" id="navbar">
-      <div class="container-fluid theme-container">
-        <a class="navbar-brand me-0" href="./index.html">
-          <img
-            src="./images/siri-muvva-logo-color.png"
-            alt="logo"
-            class="brand-logo"
-            height="48px"
-            width="65px"
-          />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>World's Biggest Dance Camp (Season-3) | Siri Muvva Arts</title>
+
+  <!-- Preload the favicon -->
+  <link rel="preload" href="./assets/siri-muvva-logo-color.png" as="image" />
+
+  <!-- Include the favicon normally -->
+  <link rel="icon" href="./assets/siri-muvva-logo-color.png" type="image/x-icon" />
+
+  <!-- Preload the Font -->
+  <link rel="stylesheet" href="./css/font/font.css" />
+
+  <!-- Preload the Bootstrap -->
+  <link rel="stylesheet" href="./css/bootstrap.css" />
+
+  <!-- Preload the Animation on scroll -->
+  <link rel="stylesheet" href="./css/aos.css" />
+
+  <!-- Preload the Custom styles -->
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <!-- Navbar starts here -->
+  <div class="border-bottom border-white container-fluid px-0 sticky-top bg-white header" id="header">
+    <div class="container-lg">
+      <nav class="navbar navbar-expand-md">
+        <a class="me-0 navbar-brand py-0" href="./index.html">
+          <img src="./assets/siri-muvva-logo-color.png" alt="logo" class="brand-logo object-fit-cover" height="48px"
+            width="65px" />
         </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-label="Toggle navigation"
-        >
+        <button class="navbar-toggler p-0 border-0 shadow-none" data-bs-toggle="offcanvas" data-bs-target="#main-navbar"
+          aria-controls="main-navbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <button
-            class="navbar-toggler cross-mark"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-label="Toggle navigation"
-          >
-            <svg width="20" height="20" viewBox="0 0 20 20">
-              <path
-                d="M10 10l5.09-5.09L10 10l5.09 5.09L10 10zm0 0L4.91 4.91 10 10l-5.09 5.09L10 10z"
-                stroke="currentColor"
-                fill="none"
-                fill-rule="evenodd"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-            </svg>
-          </button>
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="./mdc.html">MDC</a>
+        <div class="d-lg-flex p-4 p-md-0 flex-md-row offcanvas offcanvas-end align-items-md-center" id="main-navbar">
+          <button type="button" class="btn-close p-0 border-0 shadow-none d-md-none" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+          <ul class="navbar-nav mt-3 mt-md-0 mx-md-auto">
+            <li class="nav-item px-lg-4 px-md-3">
+              <a class="nav-link text-start" href="./mdc.html">MDC</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./padcc.html">PADCC</a>
+            <li class="nav-item mt-4 mt-md-0 px-lg-4 px-md-3">
+              <a class="nav-link text-start" href="./padcc.html">PADCC</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./gallery.html">Gallery</a>
+            <li class="nav-item mt-4 mt-md-0 px-lg-4 px-md-3">
+              <a class="nav-link text-start" href="./gallery.html">Gallery</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Careers</a>
+            <li class="nav-item mt-4 mt-md-0 px-lg-4 px-md-3">
+              <a class="nav-link text-start" href="#">Careers</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./get-touch.html">Contact us</a>
+            <li class="nav-item mt-4 mt-md-0 px-lg-4 px-md-3">
+              <a class="nav-link text-start" href="./get-touch.html">Contact us</a>
             </li>
           </ul>
-          <a
-            href="./contact-us-school.html"
-            class="theme-button text-decoration-none"
-            >Register</a
-          >
+          <a href="./contact-us-school.html"
+            class="theme-button text-decoration-none text-center mt-5 mt-md-0">Register</a>
         </div>
-      </div>
-    </nav>
-    <!-- Navbar ends here -->
-    <section class="container-fluid py-5">
+      </nav>
+    </div>
+  </div>
+  <!-- Navbar ends here -->
+  <div class="overflow-hidden">
+    <section class="container-fluid py-md-5">
       <div class="theme-container py-3">
         <div class="row">
-          <div class="col-sm-7 mx-auto">
+          <div class="col-md-12 col-lg-10 col-xl-8 col-xxl-7 mx-auto">
             <div class="row gy-5">
               <div class="col-sm-12 mx-auto text-center">
                 <h1 class="fs-4 fw-bold">Your ID Card</h1>
               </div>
               <div class="col-sm-6 mt-3">
-                <div
-                  style="
+                <div style="
                     border-radius: 9px;
                     border: 1px solid rgba(0, 0, 0, 0.2);
                     background: #fff;
-                    background: url('./images/id-card-bg.png') no-repeat 1px
+                    background: url('./assets/id-card-bg.png') no-repeat 1px
                       102%;
                     background-size: 100%;
-                  "
-                >
+                  ">
                   <div style="display: block">
-                    <img
-                      src="./images/siri-muvva-logo-old.png"
-                      alt="logo"
-                      width="60"
-                      height="60"
-                      style="
+                    <img src="./assets/siri-muvva-logo-old.png" alt="logo" width="60" height="60" style="
                         width: auto;
                         height: 100px;
                         object-fit: cover;
                         margin-left: auto;
                         display: block;
-                      "
-                    />
+                      " />
                   </div>
                   <div>
-                    <img
-                      src="./images/madhu-profile.png"
-                      alt="logo"
-                      width="60"
-                      height="60"
-                      style="
+                    <img src="./assets/madhu-profile.png" alt="logo" width="60" height="60" style="
                         width: 120px;
                         height: 120px;
                         object-fit: cover;
@@ -130,51 +103,40 @@
                         margin-right: auto;
                         border: 2px solid #a9a9a9;
                         margin-bottom: 18px;
-                      "
-                    />
+                      " />
                   </div>
                   <div>
-                    <h1
-                      style="
+                    <h1 style="
                         font-size: 22px;
                         font-weight: 700;
                         text-align: center;
                         margin-bottom: 16px;
-                      "
-                    >
+                      ">
                       Pill Madhu
                     </h1>
-                    <div
-                      style="
+                    <div style="
                         padding: 0px 50px;
                         display: inline-table;
                         width: 100% !important;
                         margin-bottom: 4px;
-                      "
-                    >
-                      <p
-                        style="
+                      ">
+                      <p style="
                           margin: 0px;
                           width: 34.5%;
                           display: inline-block;
                           font-size: 13px;
                           font-weight: 700;
-                        "
-                      >
+                        ">
                         ID
                       </p>
-                      <span
-                        style="
+                      <span style="
                           margin: 0px;
                           width: 1%;
                           display: inline-block;
                           font-size: 15px;
                           font-weight: 500;
-                        "
-                        >:</span
-                      >
-                      <p
-                        style="
+                        ">:</span>
+                      <p style="
                           margin: 0px;
                           width: 64.5%;
                           display: inline-block;
@@ -182,42 +144,33 @@
                           font-weight: 600;
                           padding-left: 13px;
                           color: #585858;
-                        "
-                      >
+                        ">
                         SMA - BDC - 1100
                       </p>
                     </div>
-                    <div
-                      style="
+                    <div style="
                         padding: 0px 50px;
                         display: inline-table;
                         width: 100% !important;
                         margin-bottom: 4px;
-                      "
-                    >
-                      <p
-                        style="
+                      ">
+                      <p style="
                           margin: 0px;
                           width: 34.5%;
                           display: inline-block;
                           font-size: 13px;
                           font-weight: 700;
-                        "
-                      >
+                        ">
                         Category
                       </p>
-                      <span
-                        style="
+                      <span style="
                           margin: 0px;
                           width: 1%;
                           display: inline-block;
                           font-size: 15px;
                           font-weight: 500;
-                        "
-                        >:</span
-                      >
-                      <p
-                        style="
+                        ">:</span>
+                      <p style="
                           margin: 0px;
                           width: 64.5%;
                           display: inline-block;
@@ -225,42 +178,33 @@
                           font-weight: 600;
                           padding-left: 13px;
                           color: #585858;
-                        "
-                      >
+                        ">
                         Teenagers
                       </p>
                     </div>
-                    <div
-                      style="
+                    <div style="
                         padding: 0px 50px;
                         display: inline-table;
                         width: 100% !important;
                         margin-bottom: 4px;
-                      "
-                    >
-                      <p
-                        style="
+                      ">
+                      <p style="
                           margin: 0px;
                           width: 34.5%;
                           display: inline-block;
                           font-size: 13px;
                           font-weight: 700;
-                        "
-                      >
+                        ">
                         Mobile
                       </p>
-                      <span
-                        style="
+                      <span style="
                           margin: 0px;
                           width: 1%;
                           display: inline-block;
                           font-size: 15px;
                           font-weight: 500;
-                        "
-                        >:</span
-                      >
-                      <p
-                        style="
+                        ">:</span>
+                      <p style="
                           margin: 0px;
                           width: 64.5%;
                           display: inline-block;
@@ -268,42 +212,33 @@
                           font-weight: 600;
                           padding-left: 13px;
                           color: #585858;
-                        "
-                      >
+                        ">
                         8688381231
                       </p>
                     </div>
-                    <div
-                      style="
+                    <div style="
                         padding: 0px 50px;
                         display: inline-table;
                         width: 100% !important;
                         margin-bottom: 4px;
-                      "
-                    >
-                      <p
-                        style="
+                      ">
+                      <p style="
                           margin: 0px;
                           width: 34.5%;
                           display: inline-block;
                           font-size: 13px;
                           font-weight: 700;
-                        "
-                      >
+                        ">
                         Branch
                       </p>
-                      <span
-                        style="
+                      <span style="
                           margin: 0px;
                           width: 1%;
                           display: inline-block;
                           font-size: 15px;
                           font-weight: 500;
-                        "
-                        >:</span
-                      >
-                      <p
-                        style="
+                        ">:</span>
+                      <p style="
                           margin: 0px;
                           width: 64.5%;
                           display: inline-block;
@@ -311,42 +246,33 @@
                           font-weight: 600;
                           padding-left: 13px;
                           color: #585858;
-                        "
-                      >
+                        ">
                         Alwal
                       </p>
                     </div>
-                    <div
-                      style="
+                    <div style="
                         padding: 0px 50px;
                         display: inline-table;
                         width: 100% !important;
                         margin-bottom: 4px;
-                      "
-                    >
-                      <p
-                        style="
+                      ">
+                      <p style="
                           margin: 0px;
                           width: 34.5%;
                           display: inline-block;
                           font-size: 13px;
                           font-weight: 700;
-                        "
-                      >
+                        ">
                         Slot
                       </p>
-                      <span
-                        style="
+                      <span style="
                           margin: 0px;
                           width: 1%;
                           display: inline-block;
                           font-size: 15px;
                           font-weight: 500;
-                        "
-                        >:</span
-                      >
-                      <p
-                        style="
+                        ">:</span>
+                      <p style="
                           margin: 0px;
                           width: 64.5%;
                           display: inline-block;
@@ -354,41 +280,34 @@
                           font-weight: 600;
                           padding-left: 13px;
                           color: #585858;
-                        "
-                      >
+                        ">
                         Mon - Wed - Fri
                       </p>
                     </div>
-                    <div
-                      style="
+                    <div style="
                         display: inline-table;
                         width: 100% !important;
                         color: #fff;
                         padding: 10px 16px;
                         margin-top: 25px;
-                      "
-                    >
-                      <p
-                        style="
+                      ">
+                      <p style="
                           margin: 0px;
                           width: 50%;
                           display: inline-block;
                           font-size: 11px;
                           font-weight: 700;
-                        "
-                      >
+                        ">
                         www.sirimuvvaarts.com
                       </p>
-                      <p
-                        style="
+                      <p style="
                           margin: 0px;
                           width: 50%;
                           text-align: right;
                           display: inline-block;
                           font-size: 11px;
                           font-weight: 700;
-                        "
-                      >
+                        ">
                         +91 9959044941
                       </p>
                     </div>
@@ -396,27 +315,28 @@
                 </div>
               </div>
               <div class="col-sm-6 mt-3">
-                <div
-                  class="h-100"
-                  style="
+                <div class="h-100" style="
                     border-radius: 9px;
                     border: 1px solid rgba(0, 0, 0, 0.2);
                     background: #fff;
                     padding: 10px;
-                  "
-                ></div>
+                  "></div>
               </div>
               <div class="col-sm-12 mt-4 pt-3 mx-auto text-center">
-                <button class="success-btn">Download ID card</button>
+                <button class="theme-button text-decoration-none text-center">Download ID card</button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+  </div>
 
-    <!-- Footer section -->
-    <script src="./js/index.js"></script>
-    <script src="./js/navbar.js"></script>
-  </body>
+  <!-- Footer ends here -->
+  <script src="./js/navbar.js"></script>
+  <script src="./js/bootstrap.js"></script>
+  <script src="./js/aos.js"></script>
+  <script src="./js/aos-specification.js"></script>
+</body>
+
 </html>
